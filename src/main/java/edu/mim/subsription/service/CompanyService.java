@@ -1,4 +1,6 @@
 package edu.mim.subsription.service;
 
-public interface CompanyService {
+import edu.mim.subsription.model.Company;
+
+public interface CompanyService extends CrudService<Company,Long> {
 }

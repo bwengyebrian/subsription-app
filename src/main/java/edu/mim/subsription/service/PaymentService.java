@@ -1,4 +1,6 @@
 package edu.mim.subsription.service;
 
-public interface PaymentService {
+import edu.mim.subsription.model.Payment;
+
+public interface PaymentService extends CrudService<Payment,Long> {
 }
